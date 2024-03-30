@@ -36,7 +36,6 @@
 #include "wiring_private.h"
 
 #include "SoftwareSerial.h"
-#include <avr/pgmspace.h>
 
 #define DEBUG
 
