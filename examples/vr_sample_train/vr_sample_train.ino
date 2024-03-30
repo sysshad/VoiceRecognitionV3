@@ -836,8 +836,9 @@ void printCheckRecordAll(uint8_t *buf, int num)
   else{
     Serial.println(F(" record trained."));
   }
+  Serial.println("");
   myVR.writehex(buf, 255);
-  for(int i=0; i<255; i++){
+  for(int i=0; i<=255; i++){
     if(buf[i] == 0xF0){
       continue;
     }
